@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Smart Portables</title>
+	
+	<link href="style.css" rel="stylesheet" type="text/css"></link>
+	<!--? Add Links for Jquery and bootstrap css -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<style>
+
+  	</style>
+</head>
+<body onload="init()">
+	<script type="text/javascript" src="javascript_autoComplete.js"></script>
+	<div id = "container">
+		<!--script type="text/javascript" src="autocomplete.js"></script-->
+		<header>
+			<div id="logo">
+			<!-- Add image -->
+			</div>
+			<h1><a href="/"><img style='width: 50px; height: 50px;' src='images/website_icon.png'/>&nbsp;&nbsp; SMART PORTABLES</a></h1>
+			<h2>Shop best quality products</h2>
+		</header>
+
+		<nav>
+			<div id="header">
+				<div id="menu">
+			    	<ul float="left">
+			        	<li class="start selected"><a href="Home"><i class="glyphicon glyphicon-home"> Home</i></a></li>
+			        	<!--index.html-->
+			            <li><a href="WearableTechnology">Wearable Technology</a></li>
+			            <li><a href="Phones">Phones</a></li>
+			            <li><a href="Laptops">Laptops</a></li>
+			            <li class="end"><a href="MiscProducts">Miscellaneous Products</a></li>
+
+			            <li id="search_li">	<!-- style="float: right; padding: 8px; margin: 10px;"-->
+			            	<div name="autofillform">
+			            		<input type='text' name='searchbox' placeholder="Search products" id="searchId" onkeyup="doCompletion()" />
+			            		&nbsp;<i class="glyphicon glyphicon-search" id="searchId_i"></i>
+								<div id="auto_searchRow">
+			            			<table id="autoComplete_table" style="position: absolute;"></table>
+			            		</div>
+			            	</div>
+			            </li>
+			            
+			        </ul>
+			        
+		    	</div>
+
+
+		    </div>
+		</nav>
+

@@ -1,0 +1,113 @@
+<div id="content">
+	<div>
+		<h2><a href="#">Welcome to Smart Portables</a></h2>
+		
+		<!--<p>Shop your best quality products</p>-->
+	</div>
+
+	<div id="holder">
+		
+		<h3 id="product_header">Frequently viewed products</h3>
+		<div id="products_holder">
+			<div class="entry">
+				<table id="best_seller">
+					<tr>
+						<td>
+							<div class="item_holder">
+								<h3>Htc One</h3>
+								<strong>$499.99</strong>
+								<ul>
+									<li class="zoom" id="item"><img src="images/htc1.jpg"></li>
+									<li>
+										<form action="AddItemsToCart" method="post">
+											<input type="submit" name="buybutton" class="btnbuy" value="Add to Cart">
+											<input type="hidden" name="pid" value="htc1">
+											<input type="hidden" name="pname" value="Htc One">
+											<input type="hidden" name="pprice" value="499.99">
+											<input type="hidden" name="pimage" value="htc1.jpg">
+											<input type="hidden" name="pmanuf" value="htc">
+											<input type="hidden" name="pcondition" value="new">
+											<input type="hidden" name="pdiscount" value="10.0">
+											<input type="hidden" name="passcessories" value="charger">
+											<input type="hidden" name="type" value="phone">
+										</form>
+									</li>
+									<li class = "b">
+										<details class="btnview"> <summary>View Details</summary>
+												<ul>
+													<li>Weight : 143g</li>
+													<li>Display : 4.7 inch, Full HD 1080p, 468 PPI</li>
+													<li>This is the description of the given product - HTC one phone.</li>
+												</ul>
+										</details>
+									</li>
+									<li>
+										<form action="WriteReview" method="get">
+											<input type="submit" name="writeReviewBtn" class="btnReviewLeft" value="Write Review">
+											<input type="hidden" name="pname" value="Htc One">
+											<input type="hidden" name="type" value="Phone">
+											<input type="hidden" name="pprice" value="499.99">
+											<input type="hidden" name="pdiscount" value="10.0">
+											<input type="hidden" name="pmanuf" value="htc">
+										</form>
+										<form action="ViewReview" method="get">
+											<input type="submit" name="viewReviewBtn" class="btnReviewRight" value="View Review">
+											<input type="hidden" name="pname" value="Htc One">
+										</form>
+									</li>
+								</ul>
+							</div>
+						</td>
+
+						<td>
+							<div class="item_holder">
+								<h3>Iphone XR</h3>
+								<strong>$749</strong>
+								<ul>
+									<li class="zoom" id="item"><img src="images/iphone_xr.jpg"></li>
+									<li>
+										<form action="AddItemsToCart" method="post">
+											<input type="submit" name="buybutton" class="btnbuy" value="Add to Cart">
+											<input type="hidden" name="pid" value="iphonexr">
+											<input type="hidden" name="pname" value="Iphone XR">
+											<input type="hidden" name="pprice" value="749">
+											<input type="hidden" name="pimage" value="iphone_xr.jpg">
+											<input type="hidden" name="pmanuf" value="Apple">
+											<input type="hidden" name="pcondition" value="new">
+											<input type="hidden" name="pdiscount" value="0.0">
+											<input type="hidden" name="passcessories" value="ear plugs">
+											<input type="hidden" name="type" value="phone">
+										</form>
+									</li>
+									<li class = "b">
+										<details class="btnview"> <summary>View Details</summary>
+											
+												<ul>
+													<li>Weight : 143g</li>
+													<li>Display : 4.7 inch, Full HD 1080p, 468 PPI</li>
+												</ul>
+										</details>
+									</li>
+									<li>
+										<form action="WriteReview" method="get">
+											<input type="submit" name="writeReviewBtn" class="btnReviewLeft" value="Write Review">
+											<input type="hidden" name="pname" value="Iphone XR">
+											<input type="hidden" name="type" value="Phone">
+											<input type="hidden" name="pprice" value="749">
+											<input type="hidden" name="pdiscount" value="0.0">
+											<input type="hidden" name="pmanuf" value="Apple">
+										</form>
+										<form action="ViewReview" method="get">
+											<input type="submit" name="viewReviewBtn" class="btnReviewRight" value="View Review">
+											<input type="hidden" name="pname" value="Iphone XR">
+										</form>
+									</li>
+								</ul>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
